@@ -9,9 +9,9 @@
 	<style>
 		.wrapper {max-width: 800px; height: 800px; margin: auto; background-color: antiquewhite;  padding: 30px; position: relative;}
 		.box {width: 150px; height: 150px;}
-		.box1 {background-color: red; position: absolute; top: 0; left: 0;}
-		.box2 {background-color: green; position: absolute; bottom: 0; right: 0;}
-		.box3 {background-color: blue; position: absolute; right: 0; top: 0;}
+		.box1 {z-index: 4; background-color: red; position: absolute; top: 0; left: 0;}
+		.box2 {z-index: 5; background-color: green; position: absolute; top: 30px; left: 30px;}
+		.box3 {z-index: -1; background-color: blue; position: absolute; top: 40px; left: -10px;}
 	</style>
 </head>
 <body>
