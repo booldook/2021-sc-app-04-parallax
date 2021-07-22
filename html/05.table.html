@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
 		.wrapper {max-width: 800px; padding: 24px; margin: auto;}
-		.list-tb {width: 100%; border-collapse: separate; border-spacing: 10px; border: 1px solid red;}
-		.list-tb th, .list-tb td {border: 1px solid red;}
+		/* .list-tb {width: 100%; border-collapse: separate; border-spacing: 10px; border: 1px solid red;} */
+		.list-tb {width: 100%; margin-bottom: 16px; text-align: center;}
+		.list-tb th, .list-tb td {border: 1px solid #333; padding: 12px;}
 	</style>
 </head>
 <body>
@@ -41,6 +42,44 @@
 					<td>콩쥐</td>
 					<td>물 푸기 싫어...</td>
 					<td>7. 7</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="list-tb">
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td colspan="2">2</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td rowspan="2">5</td>
+					<td>6</td>
+					<td>7</td>
+					<td rowspan="2">8</td>
+					<td>9</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>11</td>
+					<td rowspan="2">12</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td rowspan="2" colspan="2">14</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>20</td>
+					<td>21</td>
+					<td colspan="2">22</td>
 				</tr>
 			</tbody>
 		</table>
