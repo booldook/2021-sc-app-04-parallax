@@ -8,6 +8,11 @@ html, body {font-family: 'Lato', sans-serif; font-size: 15px; color: #777; heigh
 h2.title {text-align: center; margin-bottom: 24px;}
 h3.title {text-align: center; font-style: italic; font-size: 14px; margin-bottom: 24px;}
 p.content {line-height: 1.75; margin-bottom: 48px;}
+.bt {border: none; padding: 16px 20px; transition: all .5s;}
+.bt-grey {background-color: #eee; color: #000;}
+.bt-grey:hover {background-color: #bbb;}
+.bt-black {background-color: #000; color: #fff;}
+.bt-black:hover {background-color: #eee; color: #000;}
 
 
 /************ header-wrapper *************/
@@ -51,6 +56,13 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 .pf-wrapper .title-wrap {width: 100%; height: 400px; background-image: url(../img/parallax2.jpg); background-position: center; background-size: cover; background-attachment: fixed; display: table;}
 .pf-wrapper .title-wrap .cell-wp {display: table-cell; vertical-align: middle;}
 .pf-wrapper .title-wrap .cell-wp h2.title {font-size: 36px; color: #fff; letter-spacing: 8px;}
+
+.pf-wrapper .work-wrap h3.title {margin-bottom: 48px;} 
+.pf-wrapper .work-wp {margin-bottom: 36px;}
+.pf-wrapper .work {width: 23%; float: left; margin: 1%; overflow: hidden; border: 1px solid #eee;}
+.pf-wrapper .work img {transition: all .5s; opacity: .7;}
+.pf-wrapper .work img:hover {transform: scale(1.2); opacity: 1;}
+.pf-wrapper .bt-wp {text-align: center;}
 
 
 /************ contact-wrapper *************/
