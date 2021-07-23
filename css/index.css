@@ -8,8 +8,8 @@ html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px;}
 
 
 /************ header-wrapper *************/
-.header-wrapper {position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; color: #777;}
-.header-wrapper.active {background-color: #fff; color: #000; box-shadow: 0 0 10px rgba(0, 0, 0, .6); transform: translateY(0); transition: all .5s;}
+.header-wrapper {position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; color: #777; transition: all .5s;}
+.header-wrapper.active {background-color: #fff; color: #000; box-shadow: 0 0 10px rgba(0, 0, 0, .6);}
 .header-wrapper .navi-wrap {}
 .header-wrapper .navi-wrap .navi-wp {float: left;}
 .header-wrapper .navi-wrap .search-wp {float: right;}
