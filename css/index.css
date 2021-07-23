@@ -37,7 +37,7 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 .about-wrapper .skill {margin-bottom: 24px;}
 .about-wrapper .skill h5.title {font-size: 16px; letter-spacing: 8px; margin-bottom: 16px;}
 .about-wrapper .skill .bars {background-color: #eee;}
-.about-wrapper .skill .bars .bar {background-color: #555; color: #fff; text-align: center; padding: 12px;}
+.about-wrapper .skill .bars .bar {background-color: #555; color: #fff; text-align: center; padding: 10px;}
 .about-wrapper .skill:nth-child(1) .bar {width: 90%;}
 .about-wrapper .skill:nth-child(2) .bar {width: 85%;}
 .about-wrapper .skill:nth-child(3) .bar {width: 80%;}
