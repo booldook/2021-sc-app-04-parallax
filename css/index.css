@@ -44,6 +44,13 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 
 
 /************ pf-wrapper *************/
+.pf-wrapper .prj-wrap {background-color: #555; color: #fff;}
+.pf-wrapper .prj-wrap .prj {width: 25%; float: left; text-align: center; padding: 36px 0;}
+.pf-wrapper .prj-wrap h3.title {font-style: normal; font-size: 24px; margin-bottom: 16px;}
+.pf-wrapper .prj-wrap p.content {margin-bottom: 0;}
+.pf-wrapper .title-wrap {width: 100%; height: 400px; background-image: url(../img/parallax2.jpg); background-position: center; background-size: cover; background-attachment: fixed; display: table;}
+.pf-wrapper .title-wrap .cell-wp {display: table-cell; vertical-align: middle;}
+.pf-wrapper .title-wrap .cell-wp h2.title {font-size: 36px; color: #fff; letter-spacing: 8px;}
 
 
 /************ contact-wrapper *************/
