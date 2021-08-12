@@ -6,4 +6,8 @@ window.addEventListener('scroll', function(e) {
 	else {
 		document.querySelector('.header-wrapper').classList.remove('active');
 	}
-})
+});
+
+AOS.init({
+	duration: 3000
+});
